@@ -6,7 +6,7 @@
 		"network"
 	],
     "compute": [
-        "venus"
+        "mercury"
     ],
     "controller": [
         "mercury"
@@ -22,7 +22,6 @@
     "keystone.password": "admin_pass",
     "keystone.tenant": "admin",
     "cluster_type": "openstack", 
-    "pkg_proxy_url": "http://salt:3142",
     "queue-engine": "queue.rabbit",
     "cloud_repos": [
 		{
@@ -211,8 +210,8 @@
         ]
     },
     "hosts": {
-		"mercury": "10.8.27.10",
-		"venus": "10.8.27.37",
-		"salt": "10.8.27.28"
+		"mercury": "192.168.10.104",
+		"venus": "192.168.10.104",
+		"salt": "192.168.10.102"
     }
 }

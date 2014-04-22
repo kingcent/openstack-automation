@@ -20,7 +20,9 @@
         "mysql_database": [
             "present",
             {
-                "name": "{{ database_name }}"
+                "name": "{{ database_name }}",
+                "user": "root",
+                "password": "stack"
             },
             {
                 "require": [

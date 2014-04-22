@@ -26,12 +26,7 @@
                 "name": "/etc/mysql/my.cnf",
                 "user": "root",
                 "group": "root",
-                "mode": "644",
-                "require": [
-                    {
-                        "pkg": "mysql-server"
-                    }
-                ]
+                "mode": "644"
             }
         ],
         "ini": [

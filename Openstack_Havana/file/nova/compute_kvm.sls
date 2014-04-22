@@ -69,7 +69,7 @@
             "installed"
         ]
     },
-    "nova-conf": {
+    "nova-conf-compute": {
         "file": [
             "managed",
             {
@@ -125,13 +125,13 @@
 			{
 				"require": [
 					{
-						"file": "nova-conf"
+						"file": "nova-conf-compute"
 					}
 				]
 			}
         ]
     },
-    "nova-api-paste": {
+    "nova-api-paste-compute": {
         "file": [
             "managed",
             {
@@ -164,7 +164,7 @@
 			{
 				"require": [
 					{
-						"file": "nova-api-paste"
+						"file": "nova-api-paste-compute"
 					}
 				]
 			}
